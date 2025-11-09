@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tsc -p ./tsconfig.json",
+    "build": "tsc -p ./tsconfig.json && node cleanup.js",
     "watch": "tsc -p ./tsconfig.json --watch"
   },
   "devDependencies": {

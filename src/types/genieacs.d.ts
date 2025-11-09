@@ -78,7 +78,7 @@ declare function ext(...args: unknown[]): any;
  * @param message - Log message
  * @param meta - Additional metadata to include
  */
-declare function log(message: string, meta?: Record<string, unknown>): void;
+declare function log(message: string | undefined, meta?: Record<string, unknown>): void;
 
 /**
  * Sandbox Date constructor

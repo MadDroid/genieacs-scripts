@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "none",
+    "target": "es6",
+    "module": "esnext",
     "outDir": "./dist",
     "rootDir": "./src",
     "esModuleInterop": true,
@@ -9,9 +9,10 @@
     "strict": true,
     "skipLibCheck": true,
     "noImplicitAny": true,
-    "lib": ["ES6"],
-    "removeComments": true,
-    "sourceMap": false
+    "removeComments": false,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "isolatedModules": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
